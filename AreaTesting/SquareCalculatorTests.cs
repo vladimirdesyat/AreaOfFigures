@@ -1,7 +1,6 @@
 ﻿using FigureServices.Interfaces;
 using FigureServices.Models;
 using FigureServices.Services;
-using AreaOfFigures.Figures;
 
 namespace SquareCalculator.Tests
 {
