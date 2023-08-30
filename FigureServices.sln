@@ -3,12 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaOfFigures", "AreaOfFigures\AreaOfFigures.csproj", "{12CEAEEE-F8BF-46CA-AB58-A3E74ADE2769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureServices", "AreaOfFigures\FigureServices.csproj", "{12CEAEEE-F8BF-46CA-AB58-A3E74ADE2769}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaTesting", "AreaTesting\AreaTesting.csproj", "{F01B8B55-34EF-42B3-830D-0B9185A9DBFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareCalculator.Tests", "AreaTesting\SquareCalculator.Tests.csproj", "{F01B8B55-34EF-42B3-830D-0B9185A9DBFF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{12CEAEEE-F8BF-46CA-AB58-A3E74ADE2769} = {12CEAEEE-F8BF-46CA-AB58-A3E74ADE2769}
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20A77892-78AF-4477-B4C6-1C2C416F1AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{853A5622-07A8-4F10-8DDF-83B63984FDA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CEAEEE-F8BF-46CA-AB58-A3E74ADE2769} = {20A77892-78AF-4477-B4C6-1C2C416F1AA4}
+		{F01B8B55-34EF-42B3-830D-0B9185A9DBFF} = {853A5622-07A8-4F10-8DDF-83B63984FDA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E636B4F4-BD89-4CCB-BE33-F3B3FDFE66AB}
